@@ -1,0 +1,119 @@
+.cardTooltip > .tooltip-inner {
+  max-width: 100% !important;
+}
+input::placeholder {
+  color: rgba(209, 204, 204, 0.61) !important;
+  opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: red;
+}
+
+::-ms-input-placeholder {
+  /* Microsoft Edge */
+  color: red;
+}
+
+.submitTxt {
+  color: rgb(0, 0, 0);
+}
+.submitTxt:hover {
+  color: rgb(37, 132, 207);
+}
+.bgDark {
+  background-color: rgba(0, 0, 0, 0.931);
+}
+.customSecondary {
+  background-color: #2a2a2a;
+  padding: 13px 10px;
+}
+.customRounded:focus {
+  background-color: #2a2a2a !important;
+  color: white !important;
+}
+.customRounded {
+  border-radius: 30px;
+}
+.custom-tab {
+  font-size: 16px;
+  font-weight: bold;
+  color: #333;
+  display: grid;
+  grid-template-columns: 8rem 8rem;
+  justify-content: center;
+  border: navajowhite;
+  justify-content: center;
+}
+.custom-tab li button.nav-link {
+  border-radius: 1.5rem !important;
+  border: none;
+  padding: 0.8em !important;
+  background: #2a2a2a !important;
+  color: #fff;
+}
+.custom-tab li button.nav-link.active {
+  border-radius: 1.5rem !important;
+  border: none;
+  padding: 0.8em !important;
+  background: #59c7fb !important;
+  color: #fff;
+}
+.custom-tab li {
+  background: #2a2a2a !important;
+}
+.custom-tab li:nth-child(1) {
+  border-top-left-radius: 1.5rem !important;
+  border-bottom-left-radius: 1.5rem !important;
+}
+.custom-tab li:nth-child(2) {
+  border-top-right-radius: 1.5rem !important;
+  border-bottom-right-radius: 1.5rem !important;
+}
+.custom-tab li button:hover {
+  border: none !important;
+}
+.fade:not(.show) {
+  opacity: 1;
+}
+
+.table-responsive {
+  display: flex;
+  justify-content: center;
+}
+.table-responsive {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  border-radius: 16px;
+  margin-top: 50px;
+  background: rgba(255, 255, 255, 0.2);
+  text-align: center;
+  min-height: 350px;
+}
+.header-div {
+  border-radius: 15px;
+  letter-spacing: 1px;
+}
+.last-header {
+  font-size: 14px;
+}
+.shadow {
+  -webkit-animation: glowing 3s infinite;
+  animation: glowing 3s infinite;
+}
+.balance-para{
+  font-weight: lighter;
+}
+@media screen and (max-width: 576px) {
+  .row-style {
+    width: 100% !important;
+  }
+}
+
+@media screen and (min-width: 944px) and (max-width: 576px) {
+  .row-style {
+    width: 100% !important;
+  }
+}
